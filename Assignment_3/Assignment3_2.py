@@ -9,7 +9,7 @@ def main():
             data.append(int(input()))
     
         print("Entered values are:",data) #Display list of entered values
-        compare = 0
+        compare = data[0]
         for no1 in data: #for loop to iterate over data entered by user
             if(int(no1) > compare): #logic to compare values and find greatest among all entered data
                 compare = no1
